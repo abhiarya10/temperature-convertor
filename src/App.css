@@ -1,0 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.app-body{
+  background-color: rgb(196, 206, 215);
+  min-height: 100vh;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

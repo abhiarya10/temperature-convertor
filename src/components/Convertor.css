@@ -1,0 +1,36 @@
+.conv-body{
+    padding: 20px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(129, 129, 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 250, 255);
+
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        margin-top: 30px;
+        
+
+        input{
+            width: 20%;
+            padding: 10px 20px;
+        }
+        p{
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+}
